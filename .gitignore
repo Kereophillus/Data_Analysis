@@ -1,6 +1,15 @@
 .venv/               
 data/               
 *.ipynb_checkpoints/ 
-__pycache__/      
+   
 *.log      
 sandbox/      
+
+# Python cache files
+__pycache__/   
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
