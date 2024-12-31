@@ -21,8 +21,8 @@ class Display:
         html_parts = []
         for label, obj in args:
             if hasattr(obj, '_repr_html_'):
-                html_parts.append(Display.TEMPLATE.format(label, obj._repr_html_()))
+                html_parts.append(Display.TEMPLATE.format(label, obj._repr_html_()))                
             else:
                 html_parts.append(Display.TEMPLATE.format(label, repr(obj)))
-
+                
         display(HTML("\n".join(html_parts)))
