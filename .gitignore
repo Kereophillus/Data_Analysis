@@ -1,4 +1,4 @@
-.venv/               
+.DataAnalysisEnv/               
 data/               
 *.ipynb_checkpoints/ 
    
